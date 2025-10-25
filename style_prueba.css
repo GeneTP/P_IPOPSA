@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(230, 171, 62);
+}
+input {
+align-items: center;
+}
+.unica {
+    color: black;
+    background-color: red;
+}
+button {
+    color: brown;
+}
+.login-container {
+    /* Forma y color */
+    background: rgba(255, 255, 255, 0.85); /* Blanco semi-transparente */
+    border-radius: 20px;
+    padding: 40px;
+    
+    /* Sombra suave */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+    /* Efecto "Glassmorphism" opcional */
+    backdrop-filter: blur(10px); 
+    
+    /* Centrado */
+    position: absolute; /* o usa flexbox en el body */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
